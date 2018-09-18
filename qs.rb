@@ -15,7 +15,10 @@ def quick_sort array
 
 	# Left sub-array
 	left = []
-	
+
+	# Right sub-array
+	right = []
+
 
 end		
 
