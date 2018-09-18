@@ -19,6 +19,11 @@ def quick_sort array
 	# Right sub-array
 	right = []
 
+	# Iterate through array but pivot
+	for i in 0...arr_Len - 1
+		p i
+	end	 
+
 
 end		
 
