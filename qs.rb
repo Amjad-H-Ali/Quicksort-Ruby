@@ -2,7 +2,12 @@ p "Quicksort!"
 
 # Define a function that takes in array and returns it
 def quick_sort array
+	# Declared variable and initialized with array length
 	arr_Len = array.length
+
+	if arr_Len < 2
+		return array
+	end	
 
 end		
 
