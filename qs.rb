@@ -24,7 +24,12 @@ def quick_sort array
 		# When number less than pivot, place in left
 		if array[i] < pivot
 			left.insert(aray[i])
-		end	 
+
+		# If not, place in right	
+		else
+			right.insert(array[i])
+		end	
+		 	 
 	end	 
 
 
