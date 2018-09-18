@@ -21,7 +21,10 @@ def quick_sort array
 
 	# Iterate through array but pivot
 	for i in 0...arr_Len - 1
-		p i
+		# When number less than pivot, place in left
+		if array[i] < pivot
+			left.insert(aray[i])
+		end	 
 	end	 
 
 
