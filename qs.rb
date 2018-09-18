@@ -13,6 +13,10 @@ def quick_sort array
 	# Choose last element array to be pivot
 	pivot = array[arr_Len - 1]	
 
+	# Left sub-array
+	left = []
+	
+
 end		
 
 
